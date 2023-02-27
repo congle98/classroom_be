@@ -1,0 +1,8 @@
+version: '2'
+services:
+  classroom_be:
+    build: .
+    image: classroom_be
+    container_name: classroom_be
+    ports:
+      - 8089:8080
