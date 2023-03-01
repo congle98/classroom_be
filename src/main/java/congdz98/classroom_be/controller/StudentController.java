@@ -12,6 +12,6 @@ public class StudentController {
 
     @GetMapping()
     public ResponseEntity<Person> getAll(){
-        return ResponseEntity.ok(new Person().setName("Anh công đẹp trai đi BMWhihi34dfd").setAge(11));
+        return ResponseEntity.ok(new Person().setName("Anh công đẹp trai đi BMWhihi3đas4dfd").setAge(11));
     }
 }
